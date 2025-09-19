@@ -14,7 +14,7 @@ This repository contains projects from my M.S. in Applied Business Analytics and
 
 ### R scripts (/projects)
 - **week_05_data_visualizations.R** — creates three ggplot2 charts showing relationships between education, retirement status, marital status, and claim amounts (Insurance dataset).  
-- **app.R** — interactive Shiny app for exploring insurance customer segmentation with pie charts, bar plots, jitter, scatter, and income distributions.  
+- **Week_7_exercise_app.R** — interactive Shiny app for exploring insurance customer segmentation with pie charts, bar plots, jitter, scatter, and income distributions.  
 - **homework_05_machine_learning.R** — applies logistic regression, bagging, boosting, and random forest to predict whether a sales professional receives a high NPS score (TechSales dataset).  
 - **hw_03_data_mining_and_warehousing.R** — applies logistic regression and tree-based models to predict myopia incidence from health variables (Myopia dataset).
 - 
