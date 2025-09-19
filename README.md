@@ -13,19 +13,10 @@ Applied Business Analytics + Real Estate project using Excel-based modeling/anal
 ## How to view
 - Open the Excel file and review the summary and model tabs.
 
-## Method highlights (edit these)
+## Method highlights 
 - Valuation approach: [e.g., DCF / comps / pro-forma]
 - Key drivers: [price/sqft, absorption, cap rate, construction costs]
 - Sensitivity: [e.g., ±10% rent, ±50 bps cap → value delta of $X]
-
-## Results (one-liners for recruiters)
-- Modeled base-case IRR: **X%**; equity multiple: **Yx**
-- Value most sensitive to **[driver]**; ±10% changes move NPV by **$Z**
-- Recommended go/no-go threshold met **[yes/no]** under base case
-
-## Data notes
-- Data is **anonymized/synthetic** or from public sources.
-- Proprietary inputs removed; see `data/README.md` for sources.
 
 
 ##RStudio
@@ -55,6 +46,8 @@ Part of my M.S. Applied Business Analytics coursework (BAN 5100: Data Visualizat
    install.packages(c("shiny","ggplot2","dplyr","RColorBrewer","readr"))
 
 
+
+
 # Education, Retirement & Marital Segmentation — Insurance Dataset (R)
 
 Three publication-ready charts analyzing how **education level** relates to **retirement status**, **claim amounts**, and **marital status**.
@@ -66,11 +59,14 @@ Three publication-ready charts analyzing how **education level** relates to **re
 
 ## Files
 - `week 5 data visualization.R` — this script 
-- `data/insurance.csv` — input CSV (see schema below)
+- `insurance data.csv` — input CSV (see schema below)
 
 ## How to run
-1. Put your CSV at `data/insurance.csv`.  
+1. Put your CSV at `insurance data.csv`.  
 2. Open R / RStudio and run:
    ```r
    install.packages(c("tidyverse","RColorBrewer","scales"))
-   source("analysis_education_segments.R")
+   source("week 5 data visualization.R")
+
+
+
