@@ -1,72 +1,20 @@
 # Resume
 Portfolio: business analytics (M.S.) and real estate (B.B.A.)—ML models, comps, forecasting, and reporting.
+This repository contains projects from my M.S. in Applied Business Analytics and B.B.A. in Real Estate. It demonstrates skills in R, Excel, and applied data analysis, including data visualization, classification models, and real estate valuation.
 
 
-# Real Estate Development & Analysis
+## Files Overview
 
-Applied Business Analytics + Real Estate project using Excel-based modeling/analysis (valuation, comps, sensitivity).
+### Data files (/temp)
+- **insurance.csv** — Maple Insurance dataset with demographic, policy, and claim variables; used for segmentation visualizations and the Shiny dashboard.  
+- **TechSales_Reps.csv** — dataset of sales professionals; used for Net Promoter Score (NPS) prediction.  
+- **MYOPIA.csv** — dataset from a myopia study; used for logistic regression and decision tree modeling.  
+- **apple.csv** — used car / product dataset; used for regression and time series analysis exercises.  
+- **real_estate_development_analysis.xlsx** — Excel workbook for real estate valuation and sensitivity analysis; open in Excel to explore Summary and Model sheets.  
 
-## What’s inside
-- **Workbook:** `data/raw/Real Estate Development & Analysis.xlsx`
-- **Outputs:** cleaned tables in `data/processed/` and charts in `figures/`
-
-## How to view
-- Open the Excel file and review the summary and model tabs.
-
-## Method highlights 
-- Valuation approach: [e.g., DCF / comps / pro-forma]
-- Key drivers: [price/sqft, absorption, cap rate, construction costs]
-- Sensitivity: [e.g., ±10% rent, ±50 bps cap → value delta of $X]
-
-
-##RStudio
-# Insurance Demographic Segmentation (Shiny App)
-
-Interactive Shiny dashboard built in **R** for exploring insurance customer demographics and claim patterns.  
-Part of my M.S. Applied Business Analytics coursework (BAN 5100: Data Visualization).
-
-## What it does
-- Lets the user upload an insurance dataset (CSV).
-- Dynamically creates demographic segments based on categorical variables such as:
-  - Gender, Education, Marital status, Retirement status
-  - Claim type (e.g., Wind/Hail, Theft/Vandalism, Fire/Smoke, etc.)
-  - Fraud status, Town size, Primary residence, Deductible level
-- Allows selection of key performance variables (e.g., claim amount, income, age).
-- Generates multiple interactive visualizations:
-  - **Pie chart** of totals or counts by demographic group  
-  - **Bar chart** of categorical distributions with % labels  
-  - **Jitter plots** to view spread of continuous variables by groups  
-  - **Scatterplots** with two categorical variables for coloring  
-  - **Income distribution bar plots** by group  
-
-## How to run
-1. Open RStudio (with Shiny installed).  
-2. Install/load dependencies:
-   ```r
-   install.packages(c("shiny","ggplot2","dplyr","RColorBrewer","readr"))
-
-
-
-
-# Education, Retirement & Marital Segmentation — Insurance Dataset (R)
-
-Three publication-ready charts analyzing how **education level** relates to **retirement status**, **claim amounts**, and **marital status**.
-
-## What this script produces
-1) **Education × Retirement (% stacked/dodged bar)** — percent distribution of education levels within each retired/not-retired group.  
-2) **Claim Amounts by Education (column chart)** — total/mean claim amounts by education category.  
-3) **Education × Marital Status (% by group)** — percent distribution of education levels within married vs. not married (faceted).
-
-## Files
-- `week 5 data visualization.R` — this script 
-- `insurance data.csv` — input CSV (see schema below)
-
-## How to run
-1. Put your CSV at `insurance data.csv`.  
-2. Open R / RStudio and run:
-   ```r
-   install.packages(c("tidyverse","RColorBrewer","scales"))
-   source("week 5 data visualization.R")
-
-
-
+### R scripts (/projects)
+- **week_05_data_visualizations.R** — creates three ggplot2 charts showing relationships between education, retirement status, marital status, and claim amounts (Insurance dataset).  
+- **app.R** — interactive Shiny app for exploring insurance customer segmentation with pie charts, bar plots, jitter, scatter, and income distributions.  
+- **homework_05_machine_learning.R** — applies logistic regression, bagging, boosting, and random forest to predict whether a sales professional receives a high NPS score (TechSales dataset).  
+- **hw_03_data_mining_and_warehousing.R** — applies logistic regression and tree-based models to predict myopia incidence from health variables (Myopia dataset).
+- 
