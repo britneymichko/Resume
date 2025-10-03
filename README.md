@@ -12,7 +12,7 @@ This repository contains projects from my M.S. in Applied Business Analytics and
 - **maple.csv** - dataset from a maple study, used for logistics regressions
 - **apple.csv** — used car / product dataset; used for regression and time series analysis exercises.
 
-## Data File for Real Estate Development and Analysis
+### Data File for Real Estate Development and Analysis
 - **real_estate_development_analysis.xlsx** — Excel workbook for real estate valuation and sensitivity analysis; open in Excel to explore Summary and Model sheets.  
 
 ### R scripts (/projects)
