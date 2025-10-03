@@ -28,3 +28,11 @@ This repository contains projects from my **M.S. in Applied Business Analytics a
 - **business_analytics_hw_03.R**-focusing on intermediate analytics such as multiple regression or time-series modeling.  
 - **business_analytics_hw_04.R**- advanced business analytics project combining statistical modeling and visualization.  
   
+## How to Run
+Clone this repo and open in RStudio. Install required packages if not already installed. Each file mentions libraries and CSV's needed to run successfully. 
+
+## Skills Demonstrated
+- R (tidyverse, ggplot2, Shiny, forecast, MASS, ISLR2)  
+- Excel financial modeling & sensitivity analysis in real estate
+- Machine learning: logistic regression, LDA, QDA, bagging, boosting, random forest  
+- Business applications: insurance claims, NPS modeling, real estate valuation  
