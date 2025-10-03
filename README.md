@@ -1,6 +1,6 @@
 # Resume
 Portfolio: business analytics (M.S.) and real estate (B.B.A.)—ML models, comps, forecasting, and reporting.
-This repository contains projects from my M.S. in Applied Business Analytics and B.B.A. in Real Estate. It demonstrates skills in R, Excel, and applied data analysis, including data visualization, classification models, and real estate valuation.
+This repository contains projects from my **M.S. in Applied Business Analytics and B.B.A. in Real Estate**. It demonstrates skills in **R, Excel, and applied data analysis, including data visualization, classification models, and real estate valuation**.
 
 
 ## Files Overview
