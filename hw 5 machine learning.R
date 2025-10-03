@@ -11,7 +11,7 @@ trainingdata = 0.80 * nrow(spambase)
 set.seed(80)
 index = sample( seq_len ( nrow ( spambase ) ), size = trainingdata )
 
-#1c (fix this)
+#1c 
 max = apply(spambase , 2 , max)
 min = apply(spambase, 2 , min)
 scaled = as.data.frame(scale(spambase, center = min, scale = max - min))
@@ -97,6 +97,7 @@ abline(0, 1)
 
 RMSE_test_multi <- sqrt(sum((testNN$V58 - predict_testNN_multi)^2) / nrow(testNN))
 print(RMSE_test_multi)
+
 
 
 
